@@ -41,7 +41,6 @@ blockquote[xml|lang]{
 	font-variant: small-caps;
 	margin-top: 1em;
 }
-
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -76,6 +75,7 @@ section[epub|type~="epigraph"] > *{
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
 }
 
@@ -84,6 +84,10 @@ section[epub|type~="dedication"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
+}
+
+section[epub|type~="dedication"] b{
+	font-size: larger;
 }
 
 @supports(display: flex){
