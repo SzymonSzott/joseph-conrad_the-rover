@@ -45,7 +45,7 @@
 		<dc:description id="description">After a life of piracy, the titular rover retires to the French coast but gets caught up in historical events.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Having spent his life roving faraway seas, Peyrol returns to his birthplace on the French coast to retire on a small fortune acquired through piracy. Meanwhile, the historical events of the French Revolution and France’s war with England make Peyrol reconsider his withdrawal and undertake a patriotic mission.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Rover&lt;/i&gt;, published in 1923, became &lt;a href="https://standardebooks.org/ebooks/joseph-conrad"&gt;Joseph Conrad’s&lt;/a&gt; last completed novel before his death in 1924. The book is (in part) a retelling of the myth of Acis and Galatea and was adapted into a film in 1967. The epigraph, taken from &lt;i&gt;The Faerie Queene&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/edmund-spenser"&gt;Edmund Spenser&lt;/a&gt;, subsequently became Conrad’s epitaph.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Rover&lt;/i&gt;, published in 1923, became &lt;a href="https://standardebooks.org/ebooks/joseph-conrad"&gt;Joseph Conrad’s&lt;/a&gt; last completed novel before his death in 1924. The book is (in part) a retelling of the myth of Acis and Galatea and was adapted into a film in 1967. The epigraph, taken from &lt;a href="https://standardebooks.org/ebooks/edmund-spenser/the-faerie-queene"&gt;&lt;i&gt;The Faerie Queene&lt;/i&gt;&lt;/a&gt; by &lt;a href="https://standardebooks.org/ebooks/edmund-spenser"&gt;Edmund Spenser&lt;/a&gt;, subsequently became Conrad’s epitaph.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/59142</dc:source>
@@ -60,6 +60,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Joseph_Conrad</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79054067</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">J. M. W. Turner</dc:contributor>
 		<meta property="file-as" refines="#artist">Turner, J. M. W.</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Joseph Mallord William Turner</meta>
